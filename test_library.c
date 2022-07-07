@@ -9,7 +9,7 @@
  *
  *	Compiled with:
  *
- *	gcc -O2 -Wall -o wattsup wattsup.c 
+ *	gcc -O2 -Wall -o wattsup wattsup.c
  *
  */
 
@@ -126,9 +126,9 @@ int main(int argc, char ** argv)
 
 		if ((ret = wu_start_log()))
 			goto Close;
-	    
+
 		wu_read_data(fd);
-		
+
 		wu_stop_log();
 	}
 Close:

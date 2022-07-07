@@ -38,7 +38,7 @@ struct wu_data {
 	unsigned int	power_factor;
 	unsigned int	duty_cycle;
 	unsigned int	power_cycle;
-	
+
 	unsigned int	frequency;
 	unsigned int	VA;
 };
