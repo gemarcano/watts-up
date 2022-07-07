@@ -4,7 +4,7 @@
 #define ARRAY_SIZE(array) (sizeof(array) / sizeof(array[0]))
 
 #define wu_strlen	256
-#define wu_num_fields	18
+#define wu_num_fields	50
 #define wu_param_len	16
 
 struct wu_packet {

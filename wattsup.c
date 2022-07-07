@@ -121,9 +121,9 @@ int main(int argc, char ** argv)
 
 		if ((ret = wu_start_log()))
 			goto Close;
-	    
+
 		wu_read_data(fd);
-		
+
 		wu_stop_log();
 	}
 Close:
